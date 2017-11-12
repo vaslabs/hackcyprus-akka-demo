@@ -1,6 +1,6 @@
 package org.vaslabs.akka.hackcyprus
 
-import akka.actor.{ActorRef, ActorSystem}
+import akka.actor.ActorSystem
 import akka.testkit.{ImplicitSender, TestActorRef, TestKit}
 import org.scalatest.FlatSpecLike
 import org.vaslabs.akka.hackcyprus.Grandma.{Cappuccino, Latte, Milk, NoMilk}
